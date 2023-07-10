@@ -1,0 +1,172 @@
+footer{
+	background-color: rgb(33, 35, 49) ;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 100px 0px 30px;
+	border-radius: 10% 10% 0 0;
+	
+}
+
+.row{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.footer-col{
+	flex-basis: 25% ;
+	padding : 10px;
+
+}
+
+img{
+	width: 30%;
+	
+	
+}
+
+.image{
+	display: flex;
+    justify-content: center;
+	
+}
+.footer-col :nth-child(3) {
+	flex-basis : 40%;
+}
+
+hr{
+	width: 90%;
+	border: 0;
+	border-bottom: 1px solid rgb(43, 45, 59);
+	margin: 20px auto;
+}
+
+.copyright{
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 500;
+	position: relative;
+}
+
+.underline{
+	width: 100%;
+	height: 5px;
+	background-color: #767676;
+	border-radius: 3px;
+}
+
+.underline span{
+	width:15px;
+	height: 5px;
+	background:#fff;
+	border-radius: 3px;
+	position: absolute;
+	animation: moving 2s linear infinite;
+	overflow: hidden;
+}
+
+@keyframes moving{
+	0%{
+		left : -20px;
+	}
+
+	100%{
+		left: 100%;
+	}
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+
+.footer-col ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 20px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media (max-width : 770px){
+	footer{
+		bottom: unset;
+	}
+	.footer-col{
+		flex-basis: 100% ;
+		
+	
+	}
+	.footer-col :nth-child(3) {
+		flex-basis : 40%;
+	}
+}
+
+@media(max-width: 767px){
+	.footer-col{
+	  width: 50%;
+	  margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+	.footer-col{
+	  width: 100%;
+  }
+  }
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.social-links{
+	margin-top: 30px;
+}
