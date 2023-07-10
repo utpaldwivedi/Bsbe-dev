@@ -1,0 +1,36 @@
+.subscribe{
+    position: absolute;
+    width: 80.55%;
+    left: 8.81%;
+    background : #4D9E52;
+    border-radius: 120px 20px 20px 20px;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-weight: bold;
+}
+
+.cluster{
+    padding: 10% 10% 10% 10%;
+}
+
+p{
+    color: darkgreen;
+    text-align: center;
+    font-size: 30px;
+}
+
+#email{
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+#button{
+    height: 58px;
+    width: 100px;
+    color: #fff;
+    background: #664AFF;
+    border-radius: 5px;
+    font-family: 'Hind', sans-serif;
+}
